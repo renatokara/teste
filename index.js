@@ -6,7 +6,7 @@ const asyncWrap = function (fn) {
 
 const asyncExec = function (fn) {
     return asyncWrap(fn)();
-}
+};
 
 function buscaPecas(db, qtd) {
     return db.collection("pieces").find().limit(qtd);
