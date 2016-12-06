@@ -3,7 +3,10 @@
 
 const MongoClient = require("mongodb").MongoClient;
 
+// Oi
 
+
+// Oi 2
 export class MyMath {
 
     constructor() {
@@ -23,5 +26,7 @@ export class MyMath {
     }
 }
 
+
+// Oi 3
 MyMath.PI = 3.1415;
 
