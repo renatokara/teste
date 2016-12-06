@@ -18,7 +18,7 @@ function buscaStorePorId(db, store_id) {
 
 /// -------
 
-escopoFuncao = {};
+const escopoFuncao = {};
 
 MongoClient.connect()
     .then((db) => {
