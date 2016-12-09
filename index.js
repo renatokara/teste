@@ -16,7 +16,7 @@ function buscaStorePorId(db, store_id) {
     return db.collection("stores").findOne({_id: store_id});
 }
 
-/// ------- master
+/// ------- master 2
 
 const escopoFuncao = {};
 
